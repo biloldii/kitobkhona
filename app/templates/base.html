@@ -9,6 +9,7 @@
 
 <header>
     <h1>Welcome to  Library</h1>
+    <p>Let's cretate a Library</p>
     <nav>
         <a href="{{ url_for('index') }}">Home</a> |
        
@@ -16,12 +17,14 @@
 </header>
 
 <main>
-    {% block content %}
-    {% endblock %}
+    
+   
 </main>
 
 <footer>
     <p>2025 Library Management System</p>
+    {% block content %}
+    {% endblock %}
 </footer>
 
 </body>
