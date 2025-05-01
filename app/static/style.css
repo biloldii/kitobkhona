@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo:hover{
+    transition: transform 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    transform: scale(1.05);
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}   
+.link:hover{
+    opacity: 40%;
+    transition: transform 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    transform: scale(1.1);
+}
+
+.btn{
+    border: none;
+    width: 120px;
+    height: 40px;
+    border-radius: 200px;
+    background-color: #03151E;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+.btn:hover{
+    transition: transform 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    transform: scale(1.1);
+}

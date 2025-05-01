@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css)}}">
     <title>Library Management</title>
     
 </head>
 <body>
 
-<header>
-    <h1>Welcome to  Library</h1>
-    <p>Let's cretate a Library</p>
-    <nav>
-        <a href="{{ url_for('index') }}">Home</a> |
-       
-    </nav>
-</header>
+    <div class="header">
+        <img href="{{url_for('static', filename='images/logo.png)}}" alt="" width="220px" height="50px">
+        <div class="links">
+            <a href="#" class="link">Pricing</a>
+            <a href="#" class="link">Support</a>
+            <a href="#" class="link">Contact Us</a>
+            <a href="#"><button class="btn">Login</button></a>
+            <a href="#"><button class="btn">Get Started</button></a>
+        </div>
 
-<main>
-    
-   
-</main>
+    </div>
+
 
 <footer>
     <p>2025 Library Management System</p>
